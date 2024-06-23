@@ -1,0 +1,149 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 79.99,
+      "stock": 150,
+      "rating": 1,
+      "description": "High-quality wireless headphones with noise-cancelling feature and long battery life.",
+      "brand": "samsung",
+      "color": [
+        { "name": "Red", "rgb": [255, 0, 0] },
+        { "name": "Green", "rgb": [0, 255, 0] }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 599.99,
+      "stock": 75,
+      "rating": 2,
+      "description": "Latest model smartphone with advanced features, high-resolution camera, and large storage capacity.",
+      "brand": "samsung",
+      "color": [
+        { "name": "Yellow", "rgb": [255, 255, 0] },
+        { "name": "Green", "rgb": [0, 255, 0] }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "price": 24.99,
+      "stock": 200,
+      "rating": 3,
+      "description": "Durable and insulated water bottle, keeps drinks hot or cold for hours.",
+      "brand": "artel",
+      "color": [
+        { "name": "Black", "rgb": [0, 0, 0] },
+        { "name": "White", "rgb": [255, 255, 255] }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "category": "Sports & Outdoors",
+      "price": 49.99,
+      "stock": 120,
+      "rating": 3,
+      "description": "Comfortable and lightweight running shoes, designed for optimal performance.",
+      "brand": "nike",
+      "color": [
+        { "name": "White", "rgb": [255, 255, 255] },
+        { "name": "Black", "rgb": [0, 0, 0] }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Electric Kettle",
+      "category": "Home & Kitchen",
+      "price": 34.99,
+      "stock": 80,
+      "rating": 4,
+      "description": "Fast-boiling electric kettle with automatic shut-off and stainless steel body.",
+      "brand": "artel",
+      "color": [
+        { "name": "Pink", "rgb": [255, 192, 203] },
+        { "name": "Salmon", "rgb": [250, 128, 114] }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Yoga Mat",
+      "category": "Sports & Outdoors",
+      "price": 19.99,
+      "stock": 300,
+      "rating": 4,
+      "description": "Non-slip yoga mat with extra cushioning for comfort during exercises.",
+      "brand": "nike",
+      "color": [
+        { "name": "Salmon", "rgb": [250, 128, 114] },
+        { "name": "White", "rgb": [255, 255, 255] }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Digital Watch",
+      "category": "Accessories",
+      "price": 59.99,
+      "stock": 90,
+      "rating": 1,
+      "description": "Stylish digital watch with multiple features including alarm, stopwatch, and backlight.",
+      "brand": "xiaomi",
+      "color": [
+        { "name": "Black", "rgb": [0, 0, 0] },
+        { "name": "White", "rgb": [255, 255, 255] }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Laptop Backpack",
+      "category": "Accessories",
+      "price": 39.99,
+      "stock": 110,
+      "rating": 5,
+      "description": "Spacious and durable laptop backpack with multiple compartments and padded straps.",
+      "brand": "other",
+      "color": [
+        { "name": "Red", "rgb": [255, 0, 0] },
+        { "name": "Blue", "rgb": [0, 0, 255] }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 14.99,
+      "stock": 250,
+      "rating": 3,
+      "description": "Ergonomic wireless mouse with adjustable DPI settings and long battery life.",
+      "brand": "xiaomi",
+      "color": [{ "name": "Black", "rgb": [0, 0, 0] }]
+    },
+    {
+      "id": 10,
+      "name": "Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 29.99,
+      "stock": 130,
+      "rating": 4,
+      "description": "Compact and powerful Bluetooth speaker with deep bass and water-resistant design.",
+      "brand": "samsung",
+      "color": [{ "name": "Black", "rgb": [0, 0, 0] }]
+    }
+  ],
+  "brands": ["samsung", "artel", "nike", "xiaomi", "other"],
+  "colors": [
+    "Red",
+    "Green",
+    "Blue",
+    "Yellow",
+    "Black",
+    "White",
+    "Pink",
+    "Salmon"
+  ]
+}

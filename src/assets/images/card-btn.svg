@@ -1,0 +1,16 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_5981">
+			<rect id="fi-bs-shopping-cart" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="fi-bs-shopping-cart" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5_5981)">
+		<path id="Vector" d="M9 22C9 23.1 8.1 24 7 24C5.89 24 5 23.1 5 22C5 20.89 5.89 20 7 20C8.1 20 9 20.89 9 22Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M19 22C19 23.1 18.1 24 17 24C15.89 24 15 23.1 15 22C15 20.89 15.89 20 17 20C18.1 20 19 20.89 19 22Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M5.65 5L5.39 2.93C5.29 2.12 4.9 1.38 4.29 0.84C3.68 0.29 2.9 0 2.08 0L0 0L0 3L2.08 3C2.16 3 2.24 3.03 2.3 3.08C2.36 3.14 2.4 3.21 2.41 3.3L3.91 15.05C4 15.86 4.39 16.61 5 17.15C5.61 17.7 6.4 18 7.21 18L20.4 18L23.97 5L5.65 5ZM18.11 15L7.21 15C7.13 15 7.05 14.96 6.99 14.91C6.93 14.85 6.89 14.78 6.89 14.69L6.03 8L20.03 8L18.11 15Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

@@ -1,0 +1,81 @@
+.filter_color_option {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--desTextColor);
+}
+
+.product_description {
+    color: var(--desTextColor);
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product_title {
+    color: var(--titleColor);
+    font-family: "Hammersmith One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+
+.colors {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 26px;
+}
+
+.product_price {
+    color: var(--titleColor);
+    font-family: "Readex Pro";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.product_btn {
+    border-radius: 10px;
+    background: var(--green);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 40px 16px 68px;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url('/src/assets/images/card-btn.svg');
+    background-position: 32px 50%;
+}
+
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 52px;
+    column-gap: 32px;
+    margin-bottom: 48px;
+    height: calc(100vh - 160px);
+    margin-right: -20px;
+    overflow-y: auto;
+}

@@ -1,0 +1,75 @@
+.aside {
+    width: 270px;
+}
+
+.filter_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.filter_box {
+    border-top: 2px dashed rgba(69, 68, 68, 0.8);
+}
+
+.filter_box:last-child {
+    border-bottom: 2px dashed rgba(69, 68, 68, 0.8);
+    padding-bottom: 25px;
+}
+
+.filter__title {
+    color: var(--titleColor);
+    font-family: "Hammersmith One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.brand_text {
+    color: var(--titleColor);
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.brand_text::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/assets/images/filter_item.svg');
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.filter_color_option {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--desTextColor);
+    cursor: pointer;
+}
+
+.filter_color_option:hover, .filter_option_item:hover {
+    cursor: pointer;
+}
+
+.filter_option_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.filter_brand_list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

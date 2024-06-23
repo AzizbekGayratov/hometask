@@ -1,0 +1,17 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./global.css";
+
+main {
+    padding-top: 40px;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.products {
+    flex-grow: 1;
+}
